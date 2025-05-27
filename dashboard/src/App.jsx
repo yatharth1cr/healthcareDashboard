@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Header from "./components/Header/Header";
@@ -11,7 +10,6 @@ function App() {
     <div className="app-container">
       <Sidebar />
       <div className="w-full lg:w-[calc(100%-680px)] p-6 flex flex-col gap-6">
-        {/* We'll build Header and DashboardMain next */}
         <Header />
         <AnatomyView />
         <ActivityChart />
