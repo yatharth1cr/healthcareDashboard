@@ -37,7 +37,7 @@ const AnatomyView = () => {
           />
 
           {/* Labels */}
-          <div className="absolute top-25 right-30 bg-[#3734a9] text-white px-2 py-2 rounded-lg text-sm font-medium shadow">
+          <div className="absolute top-25 right-0 bg-[#3734a9] text-white px-2 py-2 rounded-lg text-sm font-medium shadow">
             ❤️ Healthy Heart
           </div>
           <div className="absolute bottom-30 left-4 bg-[#0edcea] text-blue-800 px-2 py-2 rounded-lg text-sm font-medium shadow">
