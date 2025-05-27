@@ -29,18 +29,18 @@ const AnatomyView = () => {
       </div>
       <div className="flex gap-6 col md:flex-row">
         {/* Human body image */}
-        <div className="relative bg-[#f8f9ff] rounded-2xl w-full p-2">
+        <div className="relative rounded-2xl w-full p-">
           <img
             src="https://media.istockphoto.com/id/1185122356/photo/muscles-of-the-human-body-anterior-view-3d-rendering.jpg?s=612x612&w=0&k=20&c=T4NS4rsVoDO4NegMcrKc2tL7UybeqGVc59p7_5TpB4A="
             alt="Human Body"
-            className="w-70 object-contain rounded-2xl"
+            className="w-76 rounded-2xl"
           />
 
           {/* Labels */}
-          <div className="absolute top-20 right-0 bg-[#3734a9] text-white px-4 py-2 rounded-lg text-sm font-medium shadow">
+          <div className="absolute top-25 right-30 bg-[#3734a9] text-white px-2 py-2 rounded-lg text-sm font-medium shadow">
             ❤️ Healthy Heart
           </div>
-          <div className="absolute bottom-10 left-0 bg-[#0edcea] text-blue-800 px-4 py-2 rounded-lg text-sm font-medium shadow">
+          <div className="absolute bottom-30 left-4 bg-[#0edcea] text-blue-800 px-2 py-2 rounded-lg text-sm font-medium shadow">
             🦵 Healthy Leg
           </div>
         </div>
